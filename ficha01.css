@@ -1,0 +1,111 @@
+p{
+  font-family: normal;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  position: relative;;
+  left: 575px;
+  top: 150px;
+  text-align: justify;
+  font-size: small;
+  max-width: 200px;
+}
+
+texto1{
+  font-family: normal;
+  text-align: justify;
+  color: black;
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 85%;
+  left: 15%;
+  right : 10%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+
+/*texto2{
+  font-style: normal;
+  text-align: justify;
+  color: black;
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 95%;
+  left: 15%;
+  right : 10%;
+  margin-left: -50px;
+  margin-top: -25px;
+}*/
+
+
+figure{
+  animation-name: carros;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  height: 268px;
+  width: 370px;
+  align-content: center;
+  background-position: center ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 20px;
+  bottom: 100px;
+}
+
+header{
+  margin: auto;
+  height: 400px;
+  width: 65%;
+  background: url('resources/logo.svg') 50% 50%/100% 400px no-repeat, url('resources/backgr.png') 50% 50%/100% 400px no-repeat, linear-gradient(to bottom left, #141035 ,#47486A) ;
+  border-radius: 15px;
+}
+
+button {
+    background: #47486A;
+    color: #fff;
+    font-family: Sans-serif;
+    font-size: 20px;
+    height: auto;
+    width: 21%;
+    line-height: 60px;
+    margin: 4px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+    border-radius: 12px;
+    align-items: baseline;
+    left: 20px;
+}
+
+center{
+  bottom: 150px;
+}
+
+button:hover {
+  background: #141035;
+}
+
+@keyframes carros {
+
+  0%{
+    opacity : 1;
+    background-image: url("resources/view1.png");
+  }
+  33%{
+    opacity : 1;
+    background-image: url("resources/view2.png");
+  }
+  66%{
+    opacity: 1;
+    background-image: url("resources/view3.png");
+  }
+  100%{
+    opacity: 1;
+    background-image: url("resources/view1.png");
+  }
+}
